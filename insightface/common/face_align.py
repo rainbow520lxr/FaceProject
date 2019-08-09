@@ -56,7 +56,7 @@ arcface_src = np.expand_dims(arcface_src, axis=0)
 # In[66]:
 
 
-# lmk is prediction; src is template
+# lmk is prediction; src is template 
 def estimate_norm(lmk, image_size=112, mode='arcface'):
   assert lmk.shape == (5, 2)
   tform = trans.SimilarityTransform()
